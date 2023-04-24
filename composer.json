@@ -1,5 +1,6 @@
 {
     "name": "nfephp-org/sped-common",
+    "version" : "dev-main",
     "type": "library",
     "description": "sped-common é parte do projeto NFePHP.",
     "keywords": [
