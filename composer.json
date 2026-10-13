@@ -1,6 +1,5 @@
 {
-    "name": "nfephp-org/sped-common",
-    "version" : "dev-master",
+    "name": "devmegabit/nfepy-common",
     "description": "sped-common é parte do projeto NFePHP.",
     "keywords": [
         "nfe",
@@ -35,7 +34,6 @@
         "php": ">= 7.4",
         "ext-dom": "*",
         "ext-curl": "*",
-        "ext-soap": "*",
         "ext-openssl": "*",
         "ext-mbstring": "*",
         "psr/log": "^1.0||^2.0||^3.0"
@@ -70,5 +68,8 @@
         "stan": "phpstan analyse src/",
         "stan80": "phpstan analyse src/ -c phpstan80.neon",
         "stan81": "phpstan analyse src/ -c phpstan81.neon"
+    },
+    "suggest": {
+        "ext-soap": "Necessária apenas para NFePHP\\Common\\Soap\\SoapNative"
     }
 }
